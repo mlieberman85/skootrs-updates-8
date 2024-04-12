@@ -1,0 +1,43 @@
+contribution-policy:
+  accepts-automated-pull-requests: true
+  accepts-pull-requests: true
+dependencies:
+  dependencies-lists:
+  - https://github.com/mlieberman85/skootrs-updates-8/blob/main/go.mod
+  sbom:
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skootrs-updates-8/releases/latest/download/main-linux-amd64.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skootrs-updates-8/releases/latest/download/main-linux-arm.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skootrs-updates-8/releases/latest/download/main-linux-arm64.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skootrs-updates-8/releases/latest/download/main-windows-amd64.exe.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skootrs-updates-8/releases/latest/download/main.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  third-party-packages: true
+distribution-points: []
+header:
+  expiration-date: 2025-04-12T04:28:55.964051787Z
+  last-reviewed: 2024-04-12T04:28:55.964054121Z
+  last-updated: 2024-04-12T04:28:55.964054252Z
+  license: https://github.com/mlieberman85/skootrs-updates-8/blob/main/LICENSE
+  project-url: https://github.com/mlieberman85/skootrs-updates-8
+  schema-version: 1.0.0
+project-lifecycle:
+  bug-fixes-only: false
+  status: active
+security-contacts: []
+vulnerability-reporting:
+  accepts-vulnerability-reports: true
+  security-policy: https://github.com/mlieberman85/skootrs-updates-8/blob/main/SECURITY.md
