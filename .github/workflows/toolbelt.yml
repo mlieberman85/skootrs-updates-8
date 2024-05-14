@@ -9,4 +9,4 @@ on:
 permissions: read-all
 jobs:
   toolbelt:
-    uses: ossf/toolbelt/code/workflows/toolbelt.go@toolbelt-workflow
+    uses: ossf/toolbelt/.github/workflows/toolbelt.go@toolbelt-workflow
