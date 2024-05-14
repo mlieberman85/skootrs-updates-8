@@ -13,4 +13,5 @@ jobs:
       contents: write # To upload assets to release.
       packages: write # To publish container images to GHCR
       id-token: write # needed for signing the images with GitHub OIDC Token
+      actions: read
     uses: ossf/toolbelt/.github/workflows/toolbelt.yaml@toolbelt-workflow
