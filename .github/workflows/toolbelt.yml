@@ -9,4 +9,8 @@ on:
 permissions: read-all
 jobs:
   toolbelt:
+    permissions:
+      contents: write # To upload assets to release.
+      packages: write # To publish container images to GHCR
+      id-token: write # needed for signing the images with GitHub OIDC Token
     uses: ossf/toolbelt/.github/workflows/toolbelt.yaml@toolbelt-workflow
