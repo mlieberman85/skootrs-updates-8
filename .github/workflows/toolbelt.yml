@@ -1,0 +1,12 @@
+name: toolbelt test
+on:
+  workflow_dispatch: # testing only, trigger manually to test it works
+  push:
+    branches:
+      - main
+    tags:
+      - "v*"
+permissions: read-all
+jobs:
+  toolbelt:
+    uses: ossf/toolbelt/code/workflows/toolbelt.go@toolbelt-workflow
